@@ -1,0 +1,82 @@
+@font-face {
+    font-family:"RobotoLight";
+    src: url("../fonts/roboto/Roboto-Light.ttf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size:16px;
+}
+
+div.container{
+    width:1170px;
+    margin:auto;
+    margin-top:60px;
+}
+
+div.container > div {
+    margin:15px;
+    width:360px;
+}
+
+div.container div.presentation{
+    height:600px;
+    float:left;
+    background-color: #18c5cc;
+    color:white;
+    padding:30px;
+    padding-top:150px;
+}
+
+div.container div.presentation h2{
+    font-size: 3rem;
+    font-family: "RobotoLight";
+}
+
+div.container div.presentation p{
+    font-size:1.12rem;
+    font-family: "RobotoLight";
+    margin-top:40px;
+    line-height: 1.6;
+}
+
+div.cartable, div.pommier, div.title, div.reveil{
+    height:285px;
+}
+
+div.container div.cartable{
+    float:left;
+    background-image: url("../images/cartable.jpg");
+    background-size: cover;
+}
+
+div.container div.pommier{
+    float:right;
+    background-image: url("../images/pommier.jpg");
+    background-size: cover;
+}
+
+div.container div.title{
+    float:left;
+    border:2px solid #18c5cc;
+    text-align: center;
+    padding:36px;
+}
+
+div.container div.title h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: "RobotoLight";
+    color:#18c5cc;
+}
+
+div.container div.reveil{
+    float:right;
+    background-image: url("../images/reveil.jpg");
+    background-size: cover;
+}
